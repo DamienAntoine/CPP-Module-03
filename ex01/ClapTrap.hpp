@@ -7,15 +7,15 @@
 //                             ClapTrap  Class                                //
 // ************************************************************************** //
 
-class ClapTrap {
-
-	private:
+class ClapTrap
+{
+    protected:
         std::string     name;
-        unsigned int             hp;
-        unsigned int             mp;
-        unsigned int             _attack;
+        unsigned int    hp;
+        unsigned int    mp;
+        unsigned int    _attack;
 
-	public:
+    public:
         ClapTrap(std::string name);
         ~ClapTrap();
 
