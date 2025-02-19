@@ -1,5 +1,5 @@
 NAME     := ClapTrap
-SRCS     := main.cpp ClapTrap.cpp FragTrap.cpp ScavTrap.cpp
+SRCS     := main.cpp ClapTrap.cpp FragTrap.cpp ScavTrap.cpp DiamondTrap.cpp
 OBJS     := $(SRCS:.cpp=.o)
 CXX      := g++
 CXXFLAGS := -Wall -Werror -Wextra
